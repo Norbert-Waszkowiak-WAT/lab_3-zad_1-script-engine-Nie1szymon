@@ -150,4 +150,3 @@ Wyjątkowo zadanie nie jest automatycznie sprawdzane przez testy jednostkowe.
    klasę `AbstractContainerBaseTest`, która zapewni Ci dostęp do kontekstu Springa oraz bazy danych.
 
 ![schema.png](schema.png)
-

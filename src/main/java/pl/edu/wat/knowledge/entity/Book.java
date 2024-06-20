@@ -9,11 +9,13 @@ import java.util.List;
 
 @Data
 @EqualsAndHashCode(callSuper = false)
-public class Author extends Entity{
-    private String surname;
-    private String name;
-    private String pesel;
-    private Integer score;
+public class Book extends Entity{
+    private String isbn;
+    private Integer year;
+    private Integer baseScore;
+    private String title;
     @DBRef
-    private Affilation affilation;
+    private Author editor;
+    @DBRef
+    private Publisher publisher;
 }
