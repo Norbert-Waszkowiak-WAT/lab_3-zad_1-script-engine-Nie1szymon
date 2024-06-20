@@ -25,7 +25,7 @@ public class ScriptServiceTest extends AbstractContainerBaseTest {
     }
 
     @Test
-    @Disabled 
+    //@Disabled 
     public void testCalc() {
         String script = """
                 var x = 1;
@@ -37,7 +37,7 @@ public class ScriptServiceTest extends AbstractContainerBaseTest {
     }
 
     @Test
-    @Disabled 
+    //@Disabled 
     public void testAddAndRemoveAuthor() {
         String addScript = """
                 var Author = Java.type('pl.edu.wat.knowledge.entity.Author');

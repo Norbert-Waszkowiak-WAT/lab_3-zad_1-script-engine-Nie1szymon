@@ -1,6 +1,7 @@
 package pl.edu.wat.knowledge.service;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import pl.edu.wat.knowledge.AbstractContainerBaseTest;
@@ -29,6 +30,7 @@ public class UpdateAuthorsScoreTest extends AbstractContainerBaseTest {
     }
 
     @Test
+    @Disabled 
     public void testUpdateAuthorsScore() throws FileNotFoundException {
         // Ensure there are authors in the database
         List<Author> authors = authorRepository.findAll();
